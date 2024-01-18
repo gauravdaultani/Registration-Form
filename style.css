@@ -1,52 +1,98 @@
 body {
-    font-family: Arial, sans-serif;
-     background-color: #fff; 
-}
-.head{
-     /* background-color: #459f47; */ 
-    padding-top: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.container {
-    max-width: 400px;
-    margin: 50px auto;
-    background-color:#f4f4f4;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    display: flex; 
-    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 label {
     margin-bottom: 8px;
+    color: #333;
 }
+
 input {
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
-    width: 100%;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 button {
-    padding: 10px;
-    background-color:#459f47;
+    padding: 12px;
+    background-color: #007bff;
     color: #fff;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
-    width: 100%;
+    font-size: 16px;
 }
 
 button:hover {
-    background-color: #057915;
+    background-color: #0056b3;
+}
+
+/* Additional styling for better visual appeal */
+
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
